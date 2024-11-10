@@ -640,8 +640,3 @@ body{
     background-position: right center;
   }
 }
-@media (max-width: 768px) {
-    .main {
-        filter: brightness(0.6); /* Adjust brightness here as needed */
-    }
-}
