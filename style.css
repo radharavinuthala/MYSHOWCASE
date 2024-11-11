@@ -637,6 +637,6 @@ body{
 /* For mobile devices */
 @media (max-width: 768px) {
   .main{
-    background-position: right center;
+    background-position: left center;
   }
 }
