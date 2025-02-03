@@ -44,6 +44,8 @@ section{
 .main .content h2 span{
   font-size: 1.9em;
   font-weight: 600;
+    overflow: visible;
+    white-space: nowrap;
 }
 
 
