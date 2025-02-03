@@ -28,6 +28,11 @@ section{
   background-size: cover;
   background-position: right center;
   background-attachment: fixed;
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words if necessary */
+    padding: 10px; /* Add padding for better spacing */
+    max-width: 100%; /* Ensure text doesn't overflow */
+    
 }
 
 .main .content{
@@ -40,7 +45,7 @@ section{
   font-weight: 400;
   letter-spacing:1px; 
     max-width: 100%;
-    overflow-x: hidden; /* Prevents horizontal scrolling *
+    overflow-x: hidden;
 }
 
 .main .content h2 span{
