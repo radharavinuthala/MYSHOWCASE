@@ -38,7 +38,9 @@ section{
   color: #fff;
   font-size: 1px
   font-weight: 400;
-  letter-spacing:1px;
+  letter-spacing:1px; 
+    max-width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling *
 }
 
 .main .content h2 span{
